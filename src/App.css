@@ -1,0 +1,154 @@
+.container {
+  width: 100%; 
+}
+
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0 0 0 / 35%), rgba(0 0 0 / 35%)), url("/voting-background-2.jpg");
+  height: 100vh;
+  width: 100%; 
+  background-position: bottom;
+  margin-bottom: 3rem;
+}
+
+.banner-text {
+  color: white;
+  margin-left: 2rem; 
+}
+
+.banner-heading {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.banner-paragraph {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.banner-paragraph-container {
+  width: 50%; 
+}
+
+.map {
+  margin-top: 0;
+}
+
+.map-title {
+  font-size: 1.25rem;
+  font-weight: 575;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+#map-title-bottom {
+  margin-bottom: 3rem;
+}
+
+.note {
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.data-description {
+  width: 75%;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: outline 0.25s;
+  outline: 2px solid transparent;
+}
+
+button:hover {
+  outline: 2px auto #00d176;
+  /* 646cff */
+}
+
+button:active {
+  background-color: #e3e3e3;
+}
+
+.button-grouping {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+#first-voting-score-grouping {
+  margin-top: 1.5rem;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 50px 60px 50px 50px;
+  height: 15vh; 
+  /* background-color: #3477eb; */
+  background-image: linear-gradient(rgba(0 0 0 / 35%), rgba(0 0 0 / 35%)), url("/voting-background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-credit {
+  text-align: center;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.1rem; 
+}
+
+.footer-header {
+  font-size: 1.1rem;
+}
+
+.footer-body {
+  margin-top: 0;
+}
+
+.footer-code-header {
+  margin-top: 0;
+}
+
+.footer-code-body {
+  overflow: hidden;
+}
+
+.underline {
+  color: white;
+  text-decoration: underline;
+}
+
