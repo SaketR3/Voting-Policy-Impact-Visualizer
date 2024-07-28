@@ -19,18 +19,21 @@ export default function App() {
     region: 'US',
     displayMode: 'regions',
     resolution: 'provinces',
-    colorAxis: { minValue: 20, maxValue: 80, colors: ['#ddd1e8', '#a65aed'] },
+    colorAxis: { minValue: 20, maxValue: 80, colors: ['#f5f5dc', '#a65aed'] },
     datalessRegionColor: '#e3e3e3',
     legend: { position: 'top', alignment: 'end' },
   };
+  // #ddd1e8
 
   const votingScoreMapOptions = {
     region: 'US',
     displayMode: 'regions',
     resolution: 'provinces',
-    colorAxis: { minValue: votingScoreMapRange[0], maxValue: votingScoreMapRange[1], colors: ['#dceff5', '#3480eb'] },
+    colorAxis: { minValue: votingScoreMapRange[0], maxValue: votingScoreMapRange[1], colors: ['#f5f5dc', '#75bcfa', '#3480eb'] },
     datalessRegionColor: '#e3e3e3',
   };
+  // #dceff5
+  // #a4d3fc
 
   const parseCSV = () => {
     fetch(file)
@@ -90,7 +93,7 @@ export default function App() {
   }, [parsedData]);
 
   return (
-    <div className='container'>
+    <div>
       <div className='banner'>
         <h1 className='banner-text banner-heading'>Voter patterns, visualized</h1>
         <div className='banner-paragraph-container'>
