@@ -168,7 +168,7 @@ export default function App() {
         <button onClick={() => {changeVotingScoreMap('Overall Voter Fairness Score (out of 34.5)', 0, 34.5); setVotingScoreMapTitle('Overall Voter Fairness Score')}}>Overall Voter Fairness Score</button>
       </div>
       <p className='data-description'>
-        The demographic data is from the US Census Bureau's November 2020 <a href='https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-585.html' target='_blank'>election data</a> (tables 4a - 4c). 
+        The demographic data is from the US Census Bureau's election data. 
         The voting fairness data is from the Movement Advancement Project (MAP)'s <a href='https://www.lgbtmap.org/democracy-maps/ratings_by_state' target='_blank'>Democracy Ratings</a> - their 
         website also provides more information about each of the voting fairness categories and a profile of each state. 
       </p>
@@ -179,10 +179,10 @@ export default function App() {
               <p className='footer-header'>Contact</p>
               <p className='footer-body'>sreddyj2023@gmail.com</p>
           </div>
-          <div className='footer-column'>
+          {/* <div className='footer-column'>
               <p className='footer-header footer-code-header'>Code</p>
               <a href='https://github.com/SaketR3' target='_blank' className='footer-body footer-code-body underline'>GitHub</a>
-          </div>
+          </div> */}
       </div>
     </div>
   )
